@@ -1,0 +1,98 @@
+
+body {
+    background-color:black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align:center;
+    background-color: black;
+   height:60vh;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    padding: 4px;
+    margin: 8px;
+    animation: myfirst 2s linear 1s infinite alternate;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    padding: 4px;
+    margin: 8px;
+    align-self:flex-end;
+    animation: myfirst 1s linear 2s infinite alternate;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    padding: 4px;
+    margin: 8px;
+    animation: myfirst 2s linear 2s infinite alternate;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    padding: 4px;
+    margin: 8px;
+    align-self: flex-end;
+    animation: myfirst 2s linear 1s infinite alternate;
+}
+
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    padding: 4px;
+    margin: 8px;
+    animation: myfirst 1s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: green;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: blue;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px
+    }
+}
